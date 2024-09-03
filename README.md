@@ -8,7 +8,6 @@ Este é um projeto simples desenvolvido para estudar e praticar conceitos de **G
 - [Funcionalidades](#-funcionalidades)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como Executar o Projeto](#-como-executar-o-projeto)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Contribuição](#-contribuição)
 
 ## 🌟 Visão Geral
@@ -36,14 +35,6 @@ Este projeto é uma página web fictícia, criada para fins de estudo. Ele inclu
 1 - Faça o download do Código
 2 - Abra a pasta no seu VSCode
 3 - Execute com a extensão Live Server (Alt + L & Alt + O)
-
-**Estrutura do Projeto**
-├── index.html           # Página principal
-│   ├── css
-│   │   └── styles.css   # Arquivo de estilos personalizados
-│   └── js
-│       └── scripts.js   # JavaScript básico para interatividade
-└── README.md            # Descrição do projeto
 
 **🤝 Contribuição**
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request com melhorias ou sugestões.
