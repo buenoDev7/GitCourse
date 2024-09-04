@@ -1,6 +1,6 @@
 # 🌌 Meu Projeto de Estudo com Bootstrap
 
-Este é um projeto simples desenvolvido para estudar e praticar conceitos de **Git** e **GitHub**, utilizando tecnologias básicas de desenvolvimento web. A página criada explora o uso de **HTML**, **CSS**, **Bootstrap** e **JavaScript básico**.
+Este é um projeto simples desenvolvido para estudar e praticar conceitos de **Git** e **GitHub**, utilizando tecnologias básicas de desenvolvimento web. A página criada explora o uso de **HTML 5**, **CSS 3**, **Bootstrap 5 ** e **JavaScript básicos**.
 
 ## 📑 Índice
 
