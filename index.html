@@ -1,106 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page example for Git and Github Study</title>
     <!-- Css Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Bootstrap Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        rel="stylesheet">
     <!-- JS Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- JS -->
-     <script src="js/index.js" defer></script>
+    <script src="js/index.js" defer></script>
 </head>
+
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-1 border-white shadow">
-    <div class="container-fluid px-4">
-        <a class="navbar-brand" href="#">
-            <i class="bi bi-journal-code"></i>
-            <i class="bi bi-github ps-3"></i>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-1 border-white shadow">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-journal-code"></i>
+                <i class="bi bi-github ps-3"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="p-5 text-center bg-dark text-light">
+        <div class="container">
+            <h1 class="display-4">Welcome to my Site</h1>
+            <p class="lead">This is an example of a Bootstrap page for Git and Github study purposes</p>
+            <a href="#" class="btn btn-outline-light btn-lg" onclick="troll()" id="seeMoreTroll">See More</a>
+            <p class="text-center text-danger mt-3 d-none mb-0" id="msg-troll">There's no function here :c</p>
         </div>
     </div>
-</nav>
 
-<!-- Hero Section -->
-<div class="p-5 text-center bg-dark text-light">
-    <div class="container">
-        <h1 class="display-4">Welcome to my Site</h1>
-        <p class="lead">This is an example of a Bootstrap page for study purposes</p>
-        <a href="#" class="btn btn-outline-light btn-lg" onclick="troll()" id="seeMoreTroll">See More</a>
-        <p class="text-center text-danger mt-3 d-none mb-0" id="msg-troll">There's no function here :c</p>
-    </div>
-</div>
-
-<!-- Cards Section -->
-<div class="container py-5">
-    <div class="row g-4">
-        <div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="https://picsum.photos/1920/1080?random=1" class="card-img-top d-block w-100" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Título do Card 1</h5>
-                    <p class="card-text">Descrição breve sobre o conteúdo deste card.</p>
-                    <!-- There's no function in this button -->
-                    <a href="#" class="btn btn-outline-light">Ver Mais</a>
+    <!-- Cards Section -->
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card text-bg-dark">
+                    <img src="https://picsum.photos/1920/1080?random=1" class="card-img-top d-block w-100" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 1</h5>
+                        <p class="card-text">Descrição breve sobre o conteúdo deste card.</p>
+                        <!-- There's no function in this button -->
+                        <a href="#" class="btn btn-outline-light">Ver Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-bg-dark">
+                    <img src="https://picsum.photos/1920/1080?random=2" class="card-img-top d-block w-100" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 2</h5>
+                        <p class="card-text">Descrição breve sobre o conteúdo deste card.</p>
+                        <!-- There's no function in this button -->
+                        <a href="#" class="btn btn-outline-light">Ver Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-bg-dark">
+                    <img src="https://picsum.photos/1920/1080?random=3" class="card-img-top d-block w-100" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card 3</h5>
+                        <p class="card-text">Descrição breve sobre o conteúdo deste card.</p>
+                        <!-- There's no function in this button -->
+                        <a href="#" class="btn btn-outline-light">Ver Mais</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="https://picsum.photos/1920/1080?random=2" class="card-img-top d-block w-100" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Título do Card 2</h5>
-                    <p class="card-text">Descrição breve sobre o conteúdo deste card.</p>
-                    <!-- There's no function in this button -->
-                    <a href="#" class="btn btn-outline-light">Ver Mais</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="https://picsum.photos/1920/1080?random=3" class="card-img-top d-block w-100" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Título do Card 3</h5>
-                    <p class="card-text">Descrição breve sobre o conteúdo deste card.</p>
-                    <!-- There's no function in this button -->
-                    <a href="#" class="btn btn-outline-light">Ver Mais</a>
-                </div>
-            </div>
-        </div>
     </div>
-</div>
 
-<!-- Footer -->
-<footer class="bg-dark text-light py-4 position-fixed bottom-0 w-100">
     <div class="container text-center">
-        <p class="mb-0">&copy; 2024 My Site. All rights reserved</p>
+        <h1 class="display-3 my-4">Lorem ipsum dolor sit amet.</h1>
+        <p class="lead mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugit esse, at ipsum placeat
+            illo sint
+            voluptatibus quod dolores impedit quibusdam odit eaque harum iusto! Praesentium quo magni enim in dicta, eum
+            veritatis ratione corrupti alias perferendis quis repellat et? Sit nihil alias esse minima aut! Eligendi,
+            sequi beatae earum atque qui commodi repellendus excepturi placeat nesciunt consequatur voluptas error vero
+            fugiat natus accusamus dicta facere aperiam rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Nostrum quis, saepe dolor delectus necessitatibus eaque tenetur dolore consequatur officiis quas ipsa ab
+            iste temporibus architecto nam molestiae debitis rerum tempora autem, consequuntur exercitationem. Facilis
+            id dolorem quisquam. Sit perferendis assumenda aliquam porro in dolores numquam aperiam corporis laborum
+            vero maiores nulla deleniti vel architecto odio, voluptate quisquam quod. Repellat commodi hic accusantium,
+            dolores labore corrupti nemo fuga quisquam amet beatae inventore iure adipisci nisi culpa. Ducimus eos rem
+            nostrum natus quia deserunt magni sequi in illum. Maiores soluta sapiente, natus numquam vitae et error,
+            distinctio reprehenderit omnis ut deleniti ab, repellendus expedita atque! Animi accusantium repudiandae
+            quia sapiente architecto, officia velit voluptates eaque unde non, maxime adipisci laudantium soluta dolore
+            quis tenetur vero, fugiat reiciendis aliquam incidunt. Nisi odit ullam distinctio ea deleniti consequuntur,
+            repellat quasi, pariatur excepturi reiciendis dignissimos aliquid cumque esse tenetur dolor explicabo
+            dolores sapiente. Expedita consectetur temporibus id laboriosam dolorem assumenda praesentium molestias
+            voluptatem? Accusamus quod dolor optio alias, in at temporibus voluptatem eos laborum fuga praesentium
+            aliquam rem deserunt possimus reiciendis delectus ut, ad dolorem, assumenda voluptatum. Cumque, quod
+            sapiente doloremque molestiae odio earum nihil ea repellendus modi pariatur eligendi sint at nisi animi
+            impedit. incidunt itaque asperiores impedit velit tempora!
+            Necessitatibus ipsa iusto fugiat cum sunt aliquam assumenda fuga voluptates rerum! Id aspernatur laudantium
+            voluptate. Voluptas, fugit? Odit sed quia, quod eligendi ut aliquid vero at!
+        </p>
     </div>
-</footer>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 My Site. All rights reserved</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>

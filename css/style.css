@@ -9,3 +9,7 @@ body {
     color: #212529;
     background-color: #e0e0e0;
 }
+
+.active {
+    color: rgb(17, 124, 17)!important;
+}
