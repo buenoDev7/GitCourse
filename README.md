@@ -17,30 +17,30 @@ Este projeto é uma página web fictícia, criada para fins de estudo. Ele inclu
 ## ✨ Funcionalidades
 
 - **Responsividade**
-- 
+
 - **Navbar Interativa**: Menu de navegação responsivo com links para diferentes seções.
-- 
+  
 - **Seção de Destaque**: Hero section com chamada para ação.
-- 
+  
 - **Cards Informativos**: Exibição de informações com cards estilizados.
-- 
+  
 - **Ícones Personalizados**: Uso de Bootstrap Icons para melhorar a interface.
-- 
+  
 - **JavaScript**: Scripts para adicionar funcionalidades dinâmicas à página.
-- 
+  
 
 ## 🛠 Tecnologias Utilizadas
 
 - **HTML5**: Estrutura da página.
-- 
+  
 - **CSS3**: Estilos personalizados.
-- 
+  
 - **Bootstrap 5**: Framework CSS para design responsivo e componentes prontos.
-- 
+  
 - **Bootstrap Icons**: Biblioteca de ícones vetoriais.
-- 
+  
 - **JavaScript**: Scripts simples para interatividade.
-- 
+  
 
 ## 🚀 Como Executar o Projeto
 1 - Faça o download do Código
@@ -49,7 +49,7 @@ Este projeto é uma página web fictícia, criada para fins de estudo. Ele inclu
 
 3 - Execute com a extensão Live Server (Alt + L & Alt + O)
 
-**🤝 Contribuição**
+## 🤝 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request com melhorias ou sugestões.
 
 1 - Faça um fork do projeto.
