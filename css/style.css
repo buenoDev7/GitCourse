@@ -15,9 +15,11 @@ body {
 .navbar-dark .navbar-nav .nav-link {
     color: #b0b0b0;
 }
+
 .btn-outline-light:hover {
-    color: #212529;
-    background-color: #e0e0e0;
+    color: #0a0a0a;
+    background-image: linear-gradient(to top, #e3e3e3, #4e4e4e);
+    border: 1px solid transparent;
 }
 
 .active {
