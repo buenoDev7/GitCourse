@@ -38,3 +38,11 @@ body {
     transform: translateY(-10px);
     filter: opacity(1) drop-shadow(3px 3px 10px #000000);
 }
+
+#techs {
+    width: 70px;
+}
+
+i {
+    cursor: pointer;
+}
