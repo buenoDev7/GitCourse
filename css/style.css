@@ -46,3 +46,7 @@ body {
 i {
     cursor: pointer;
 }
+
+table {
+    background-color: red;
+}
