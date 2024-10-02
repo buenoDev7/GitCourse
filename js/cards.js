@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const observerOptions = {
         root: null, // Observa a visibilidade dentro da viewport
-        threshold: .1 // Define que 50% do card precisa estar visível para acionar o callback
+        threshold: 0.95 // Define que 20% do card precisa estar visível para acionar o callback
     };
 
     const observer = new IntersectionObserver((entries) => {
