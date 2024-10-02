@@ -47,4 +47,4 @@ function showName() {
     } else {
         username.textContent = `, ${usernameInfo}!`;
     }
-} showName();
+}
