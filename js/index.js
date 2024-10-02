@@ -25,15 +25,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-function troll() {
-    const msgTroll = document.getElementById("msg-troll");
-    const seeMoreTroll = document.getElementById("seeMoreTroll")
-    msgTroll.classList.toggle("d-none")
+function noFunc() {
+    const msgNoFunc = document.getElementById("msgNoFunc");
+    const seeMoreBtn = document.getElementById("seeMoreBtn")
+    msgNoFunc.classList.toggle("d-none")
 
-    if (!msgTroll.classList.contains('d-none')) {
-        seeMoreTroll.textContent = "Hide"
+    if (!msgNoFunc.classList.contains('d-none')) {
+        seeMoreBtn.textContent = "Hide"
     } else {
-        seeMoreTroll.textContent = "See More"
+        seeMoreBtn.textContent = "See More"
     }
 }
 
